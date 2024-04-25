@@ -75,7 +75,7 @@ const Navbar = () => {
 					</h1>
 				</Link>
 			</section>
-			<div className='hidden lg:flex w-[337px] justify-between   '>
+			<div className='hidden lg:flex w-[140px] justify-between   '>
 			<Link href="/#about">
 					<div className='w-[58px] h-[58px] rounded-[16px] tg '>
 						<Image src={tg} alt='telegram' className='' />
@@ -85,9 +85,6 @@ const Navbar = () => {
 				<div  className='w-[58px] h-[58px] rounded-[16px] tg '>
 						<Image src={twit} alt='twitter' className='' />
 					</div>
-				</Link>
-				<Link href="/#services">
-					<button className='farmbtn'>ENTER FARM</button>
 				</Link>
 			</div>
 		</nav>
