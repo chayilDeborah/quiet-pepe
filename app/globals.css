@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background: #22A9D8;
+  background: #81C9CD;
 }
 .img {
     display: block;
@@ -70,4 +70,10 @@ body {
   }
   .copybtn {
     box-shadow: 0 4px #089308;
+  }
+  .who {
+    font-size: 100px;
+  line-height: 90%;
+  text-shadow: 8px 10px 0px #000;
+  margin-bottom: 24px;
   }
