@@ -8,7 +8,7 @@ const How = () => {
         <main className='flex justify-center w-full mt-[140px] text-white '>
             <section className=' w-[90%] lg:w-full'>
                 <h1 className='who font-bold my-[24px] text-center '>HOW IT WORKS</h1>
-                <section className='grid lg:grid-cols-2 mt-[80px] grid-cols-1 '>
+                <section className='grid lg:grid-cols-2 mt-[140px] grid-cols-1 '>
                     <div className='relative'>
                         <div className='num w-[110px] h-[110px] absolute -mt-[55px] ml-[45px] '>
                             01
