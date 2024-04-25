@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: #22A9D8;
+}
 .img {
     display: block;
     object-fit: cover;
@@ -9,7 +12,7 @@
     height: auto;
   }
   .image {
-    background-color: steelblue;
+    background-color: #22A9D8;
     background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1713993855/photo_5859621421372785896_y_a6hksv.jpg);
     background-size: cover;
     background-position: center;
@@ -32,12 +35,12 @@
   justify-content: center;
   }
   .tg:hover {
-    background-color: #f64730;
+    background-color: #00B700;
     box-shadow: 0 0;
   border: 1px solid #3A80FE;
   }
   .farmbtn {
-    background-color: #f64730;
+    background-color: #00B700;
   border: 1px solid #fff;
   border-radius: 16px;
   box-shadow: 2px 3px #fff;
@@ -48,7 +51,23 @@
   padding: 16px 24px;
   }
   .farmbtn:hover {
-    background-color: #f64730 !important;
-  border-color: #f64730 !important;
+    background-color: #00B700 !important;
+  border-color: #00B700 !important;
   color: #fff !important;
+  }
+  .h1 {
+    text-shadow: 8px 10px 0px #000;
+  }
+  .copybg {
+    border: 1px solid #fff;
+  background-color: #3a80fe;
+  border-radius: 12px;
+  box-shadow: 2px 4px #fff;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  }
+  .copybtn {
+    box-shadow: 0 4px #089308;
   }
