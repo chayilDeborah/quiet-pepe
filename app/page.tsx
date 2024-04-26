@@ -1,6 +1,7 @@
 
 import About from './components/About'
 import Community from './components/Community'
+import Footer from './components/Footer'
 import Homepage from './components/Homepage'
 import How from './components/How'
 import Introductn from './components/Introductn'
@@ -17,6 +18,7 @@ export default function Home() {
         </section>
         <Tokenomics />
         <Community />
+        <Footer />
       </div>
     </main>
   )
