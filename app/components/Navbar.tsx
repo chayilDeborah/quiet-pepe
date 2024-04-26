@@ -19,10 +19,10 @@ const Navbar = () => {
 
 
 	return (
-		<nav className="flex lg:max-w-[90rem] w-[95%] mx-auto lg:w-full justify-between lg:my-[37px] text-white">
+		<nav className="flex lg:max-w-[90rem]  mt-[25px] lg:mt-[0px] w-[95%] mx-auto lg:w-full justify-between lg:my-[37px] text-white">
 			<Link href="/">
 				<section className='flex '>
-					<Image src={logo} alt='logo' className=' w-[90px] rounded-[50%] ' />
+					<Image src={logo} alt='logo' className='w-[65px] lg:w-[90px] rounded-[50%] ' />
 				</section>
 			</Link>
 			

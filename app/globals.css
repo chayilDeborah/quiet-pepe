@@ -2,8 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Passion One';
+  src: url('/fonts/PassionOne-Regular.woff2') format('woff2'),
+       url('/fonts/PassionOne-Regular.woff') format('woff');
+  /* Add other font formats if available */
+  font-weight: normal; /* You can adjust font weight if needed */
+  font-style: normal; /* You can adjust font style if needed */
+}
+
 body {
   background: #22A9D8;
+  font-family: 'Passion One', sans-serif;
 }
 .img {
     display: block;
@@ -106,7 +116,7 @@ body {
   }
   .join {
     color: #000;
-    text-shadow: 6px 6px 0 #fff;
+    text-shadow: 6px 3px 0 #fff;
     font-size: 70px;
   line-height: 90%;
   margin-bottom: 24px;
