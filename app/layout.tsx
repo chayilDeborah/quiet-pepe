@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={rocknroll.className}>
-      <link rel="icon" href="/favicon.jpg" sizes="any" />
+      <link rel="icon" href="/favicon.png" sizes="any" />
         {children}
         </body>
     </html>
