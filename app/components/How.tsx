@@ -7,9 +7,9 @@ const How = () => {
     return (
         <main className='flex justify-center w-full mt-[90px] lg:mt-[140px] text-white ' id='how'>
             <section className='w-full'>
-                <h1 className='who font-bold my-[24px] text-center '>HOW TO BUY</h1>
+                <h1 className='who font-bold my-[24px] text-center ' data-aos="fade-up">HOW TO BUY</h1>
                 <section className='grid lg:grid-cols-2 mt-[112px] lg:w-full w-[90%] mx-auto lg:mx-[0px] lg:mt-[140px] grid-cols-1 '>
-                    <div className='relative'>
+                    <div className='relative'  data-aos="fade-up" data-duration="1400">
                         <div className='num w-[110px] h-[110px] absolute -mt-[55px] ml-[45px] '>
                             01
                         </div>
@@ -19,7 +19,7 @@ const How = () => {
                             <Image src={dance} alt='gonzo' className='w-[159px] animate-spin mt-[10px] mx-auto rounded-[50%] ' />
                         </div>
                     </div>
-                    <div className='relative lg:ml-[50px] mt-[100px] lg:mt-[0px] '>
+                    <div className='relative lg:ml-[50px] mt-[100px] lg:mt-[0px] '  data-aos="fade-up" data-duration="1500">
                         <div className='num w-[110px] h-[110px] absolute -mt-[55px] ml-[45px] '>
                             02
                         </div>
@@ -33,7 +33,7 @@ const How = () => {
                                 Block Explorer: https://basescan.org</div>
                         </div>
                     </div>
-                    <div className='relative mt-[100px] lg:my-[110px] '>
+                    <div className='relative mt-[100px] lg:my-[110px] '  data-aos="fade-up" data-duration="1600">
                         <div className='num w-[110px] h-[110px] absolute -mt-[55px] ml-[45px] '>
                             03
                         </div>
@@ -43,7 +43,7 @@ const How = () => {
     <p>Alternatively, you can send BASE ETH from your Coinbase CEX account directly to your private MetaMask wallet.</p></div>
                         </div>
                     </div>
-                    <div className='relative mt-[100px] lg:my-[110px] lg:ml-[50px]'>
+                    <div className='relative mt-[100px] lg:my-[110px] lg:ml-[50px]'  data-aos="fade-up" data-duration="1700">
                         <div className='num w-[110px] h-[110px] absolute -mt-[55px] ml-[45px] '>
                             04
                         </div>
@@ -52,7 +52,7 @@ const How = () => {
                             <p className='text-[18px] lg:text-[24px] leading-[180%]  '>Visit Uniswap, connect your wallet to the BASE network, paste the DOGGO contract address (listed below) into the &apos;Select token&apos; field, then swap some BASE ETH for DOGGO.</p>
                         </div>
                     </div>
-                    <div className='relative mt-[100px] lg:mt-[0px] '>
+                    <div className='relative mt-[100px] lg:mt-[0px] '  data-aos="fade-up" data-duration="1800">
                         <div className='num w-[110px] h-[110px] absolute -mt-[55px] ml-[45px] '>
                             05
                         </div>

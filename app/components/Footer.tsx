@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <main className='flex justify-center text-black mt-[25px] lg:mt-[100px] '>
+    <main className='flex justify-center text-black mt-[25px] lg:mt-[100px] 'data-aos="fade-in">
          <div className='lg:max-w-[90rem]  w-[95%] mx-auto lg:w-full'>
          <div className='flex justify-between foot lg:text-[16px] text-[13px] '>
             <section>

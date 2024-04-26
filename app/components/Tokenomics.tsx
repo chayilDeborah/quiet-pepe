@@ -8,14 +8,14 @@ const Tokenomics = () => {
                 <div className='lg:w-full h-auto bg-[url("https://res.cloudinary.com/dmye53wps/image/upload/v1714069905/ballons_jri5mb.jpg")] bg-cover bg-center w-full '>
                     <div className='lg:max-w-[90rem]  w-[95%] mx-auto lg:w-full'>
                         <div className=''>
-                            <h1 className='who font-bold my-[24px] text-center pt-[100px] mb-[60px] '>TOKENOMICS</h1>
+                            <h1 className='who font-bold my-[24px] text-center pt-[100px] mb-[60px] '  data-aos="fade-up">TOKENOMICS</h1>
                             <div className='flex flex-col-reverse lg:flex-row  justify-between '>
-                                <div className=' video-container'>
+                                <div className=' video-container' data-aos="fade-right">
                                     <video loop className="lg:w-[566px] h-[437px] lg:h-[616px] " autoPlay muted>
                                         <source src="/tokenomics.mp4" type="video/mp4" />
                                     </video>
                                 </div>
-                                <div className='mx-auto lg:w-[525px] w-[95%] '>
+                                <div className='mx-auto lg:w-[525px] w-[95%] ' data-aos="fade-left">
                                     <h1 className='border-[2px] text-[19px] lg:text-[27px] flex justify-between border-white px-[15px] py-[15px] rounded-[16px] mt-[30px] '>Symbol<span className='ml-[140px] '>GONZO</span></h1>
                                     <h1 className='border-[2px] text-[19px] lg:text-[27px] flex justify-between border-white px-[15px] py-[15px] rounded-[16px] mt-[30px] '>Tax<span className='ml-[140px] '>0/0</span></h1>
                                     <h1 className='border-[2px] text-[19px] lg:text-[27px] flex justify-between border-white px-[15px] py-[15px] rounded-[16px] mt-[30px] '>Liquidity<span className='ml-[90px] lg:ml-[140px] '> Locked</span></h1>
