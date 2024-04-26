@@ -14,11 +14,11 @@ export default function Home() {
         <Homepage />
         <section className='lg:max-w-[90rem] w-[95%] mx-auto lg:w-full' >
           <About />
-          <How />
+          {/* <How /> */}
         </section>
-        <Tokenomics />
+        {/* <Tokenomics />
         <Community />
-        <Footer />
+        <Footer /> */}
       </div>
     </main>
   )

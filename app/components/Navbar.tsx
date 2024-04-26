@@ -55,33 +55,33 @@ const Navbar = () => {
 					} lg:flex font-dm-sans justify-between text-[18px] leading-[150%] lg:w-[539px] my-auto `}
 			>
 				<Link href="/">
-					<h1 className=" lg:my-auto hover:text-[#445fe3]">
+					<h1 className=" lg:my-auto hover:text-[#1F9AD0]">
 						Home
 					</h1>
 				</Link>
 				<Link href="/#about">
-					<h1 className="my-[20px] lg:my-auto hover:text-[#445fe3] ">
+					<h1 className="my-[20px] lg:my-auto hover:text-[#1F9AD0] ">
 						About
 					</h1>
 				</Link>
-				<Link href="/#features">
-					<h1 className="lg:my-auto hover:text-[#445fe3]">
+				<Link href="/#tokenomics">
+					<h1 className="lg:my-auto hover:text-[#1F9AD0]">
 					Tokenomics
 					</h1>
 				</Link>
-				<Link href="/#services">
-					<h1 className="my-[20px] lg:my-auto hover:text-[#445fe3]">
+				<Link href="/#how">
+					<h1 className="my-[20px] lg:my-auto hover:text-[#1F9AD0]">
 					How To Buy
 					</h1>
 				</Link>
 			</section>
 			<div className='hidden lg:flex w-[140px] justify-between   '>
-			<Link href="/#about">
+			<Link href="/#">
 					<div className='w-[58px] h-[58px] rounded-[16px] tg '>
 						<Image src={tg} alt='telegram' className='' />
 					</div>
 				</Link>
-				<Link href="/#features">
+				<Link href="/#">
 				<div  className='w-[58px] h-[58px] rounded-[16px] tg '>
 						<Image src={twit} alt='twitter' className='' />
 					</div>

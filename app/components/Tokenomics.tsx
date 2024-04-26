@@ -3,7 +3,7 @@ import React from 'react'
 
 const Tokenomics = () => {
     return (
-        <main>
+        <main id='tokenomics'>
             <section className="relative lg:mt-[128px] mb-[00px] lg:mb-[0px] mt-[50px] text-center text-white ">
                 <div className='lg:w-full h-auto bg-[url("https://res.cloudinary.com/dmye53wps/image/upload/v1714069905/ballons_jri5mb.jpg")] bg-cover bg-center w-full '>
                     <div className='lg:max-w-[90rem]  w-[95%] mx-auto lg:w-full'>
