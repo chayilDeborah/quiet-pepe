@@ -49,7 +49,7 @@ const How = () => {
                         </div>
                         <div className='bigcard h-[468px]'>
                             <h1 className='subtitle font-bold'>Navigate to Uniswap</h1>
-                            <p className='text-[16.9px] lg:text-[22px] leading-[180%]  '>Visit Uniswap, connect your wallet to the BASE network, paste the DOGGO contract address (listed below) into the &apos;Select token&apos; field, then swap some BASE ETH for DOGGO.</p>
+                            <p className='text-[16.9px] lg:text-[22px] leading-[180%]  '>Visit Uniswap, connect your wallet to the BASE network, paste the GONZO contract address (listed below) into the &apos;Select token&apos; field, then swap some BASE ETH for GONZO.</p>
                         </div>
                     </div>
                     <div className='relative mt-[130px] lg:mt-[0px] '  data-aos="fade-up" data-duration="1800">
@@ -57,8 +57,8 @@ const How = () => {
                             05
                         </div>
                         <div className='bigcard h-[520px] lg:h-[468px]'>
-                            <h1 className='subtitle font-bold'>Display DOGGO In Your Wallet</h1>
-                            <p className='text-[16.9px] lg:text-[22px] leading-[180%]  '>Finally, for DOGGO to show in your MetaMask wallet, simply paste the DOGGO contract address via MetaMask&apos;s &apos;Tokens &gt; Import tokens&apos; option</p>
+                            <h1 className='subtitle font-bold'>Display GONZO In Your Wallet</h1>
+                            <p className='text-[16.9px] lg:text-[22px] leading-[180%]  '>Finally, for GONZO to show in your MetaMask wallet, simply paste the GONZO contract address via MetaMask&apos;s &apos;Tokens &gt; Import tokens&apos; option</p>
                             <Image src={jump} alt='gonzo'  className='w-[159px] -mt-[12px] mx-auto rounded-[50%] '  />
                         </div>
                     </div>
