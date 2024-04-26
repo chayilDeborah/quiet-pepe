@@ -25,7 +25,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={rocknroll.className}>{children}</body>
+      <body className={rocknroll.className}>
+      <link rel="icon" href="/favicon.jpg" sizes="any" />
+        {children}
+        </body>
     </html>
   )
 }
