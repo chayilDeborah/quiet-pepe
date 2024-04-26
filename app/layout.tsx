@@ -1,8 +1,14 @@
 import type { Metadata } from 'next'
 import {Passion_One } from 'next/font/google'
+import { RocknRoll_One } from 'next/font/google';
 import './globals.css'
 
 const passion = Passion_One({  weight: ['400', '700'],
+style: ['normal'],
+subsets: ['latin'],
+display: 'swap', });
+
+const rocknroll = RocknRoll_One({  weight: ["400"],
 style: ['normal'],
 subsets: ['latin'],
 display: 'swap', });
@@ -19,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={passion.className}>{children}</body>
+      <body className={rocknroll.className}>{children}</body>
     </html>
   )
 }

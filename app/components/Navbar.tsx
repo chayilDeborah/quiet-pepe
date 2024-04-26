@@ -19,7 +19,7 @@ const Navbar = () => {
 
 
 	return (
-		<nav className="flex lg:max-w-[90rem]  mt-[25px] w-[95%] mx-auto lg:w-full justify-between lg:my-[37px] text-white">
+		<nav className="flex lg:max-w-[1280px] overflow-hidden  mt-[25px] w-[95%] mx-auto lg:w-full justify-between lg:my-[37px] text-white">
 			<Link href="/">
 				<section className='flex '>
 					<Image src={logo} alt='logo' className='w-[65px] lg:w-[90px] rounded-[50%] ' />
@@ -29,7 +29,7 @@ const Navbar = () => {
 			<div className="lg:hidden w-[6%] ">
 				<button
 					onClick={toggleMenu}
-					className="lg:mt-[0px] mt-[20px] lg:mr-[0px] mt-[15px] "
+					className="lg:mt-[0px] mt-[20px] lg:mr-[0px] "
 				>
 					<div className="-ml-[18px] ">
 						{isMenuOpen ? (
@@ -50,9 +50,9 @@ const Navbar = () => {
 			</div>
 			<section
 				className={`${isMenuOpen
-						? "block fixed  z-50 p-[50px] lg:p-[0px] lg:text-left  text-center bg-[#22A9D8] bg-opacity-500 w-[100%] mx-auto"
+						? "block fixed inset-0 z-50 p-[50px] lg:p-[0px] lg:text-left  text-center bg-[#22A9D8] bg-opacity-500 w-[100%] mx-auto"
 						: "hidden"
-					} lg:flex font-dm-sans justify-between text-[18px] leading-[150%] lg:w-[539px] my-auto `}
+					} lg:flex justify-between text-[22px] leading-[150%] lg:w-[539px] my-auto `}
 			>
 				<Link href="/">
 					<h1 className=" lg:my-auto hover:text-[#00B700]">

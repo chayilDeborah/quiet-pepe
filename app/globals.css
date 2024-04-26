@@ -2,18 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
+/* @font-face {
   font-family: 'Passion One';
   src: url('/fonts/PassionOne-Regular.woff2') format('woff2'),
        url('/fonts/PassionOne-Regular.woff') format('woff');
-  /* Add other font formats if available */
-  font-weight: normal; /* You can adjust font weight if needed */
-  font-style: normal; /* You can adjust font style if needed */
-}
+  font-weight: normal; 
+  font-style: normal;
+} */
+
+/* @font-face {
+  font-family: 'Rock and Roll One';
+  src: url('/fonts/RocknRollOne-Regular.ttf') format('truetype');
+} */
+
 
 body {
   background: #22A9D8;
-  font-family: 'Passion One', sans-serif;
+  /* font-family: 'Passion One', sans-serif; */
+}
+.font {
+  font-family: 'RocknRoll One' sans-serif;
+}
+.test {
+  font-family: var(--font-rocknroll)
 }
 .img {
     display: block;
@@ -82,10 +93,9 @@ body {
     box-shadow: 0 4px #089308;
   }
   .who {
-    font-size: 100px;
+    font-size: 77px;
   line-height: 90%;
   text-shadow: 8px 10px 0px #000;
-  margin-bottom: 24px;
   }
   .num {
     font-size: 50px;
@@ -109,7 +119,7 @@ body {
   background-color: #519dff;
   }
   .subtitle {
-    font-size: 37px;
+    font-size: 28px;
     line-height: 90%;
     text-shadow: 3px 4px 0 #000;
     margin-bottom: 24px;
@@ -117,9 +127,9 @@ body {
   .join {
     color: #000;
     text-shadow: 6px 3px 0 #fff;
-    font-size: 70px;
+    font-size: 55px;
   line-height: 90%;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   }
   .tgjoin {
   border-radius: 16px;
@@ -147,22 +157,25 @@ body {
   }
   @media (min-width: 320px) and (max-width: 450px) {
    .who {
-    font-size: 44px;
-    text-shadow: 4px 6px 0px #000;
+    font-size: 35px;
+    text-shadow: 3px 5px 0px #000;
    } 
    .bigcard {
     padding: 80px 20px 40px;
    }
    .subtitle {
-    font-size: 28px;
+    font-size: 23px;
     margin-bottom: 17px;
     line-height: 120%;
    }
    .join {
-    font-size: 30px;
+    font-size: 27px;
     text-shadow: 2px 2px 0 #fff;
    }
    .foot {
     padding: 12px 0;
+   }
+   .farmbtn {
+    font-size: 15px;
    }
   }
