@@ -104,3 +104,24 @@ body {
     text-shadow: 3px 4px 0 #000;
     margin-bottom: 24px;
   }
+  .join {
+    color: #000;
+    text-shadow: 6px 6px 0 #fff;
+    font-size: 70px;
+  line-height: 90%;
+  margin-bottom: 24px;
+  }
+  .tgjoin {
+  border-radius: 16px;
+  border: 1px solid #fff;
+  box-shadow: 1px 3px #fff;
+  background-color: #3a80fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .tg:hover {
+    background-color: #00B700;
+    box-shadow: 0 0;
+  border: 1px solid #3A80FE;
+  }

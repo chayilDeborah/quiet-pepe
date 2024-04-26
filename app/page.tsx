@@ -1,8 +1,10 @@
 
 import About from './components/About'
+import Community from './components/Community'
 import Homepage from './components/Homepage'
 import How from './components/How'
 import Introductn from './components/Introductn'
+import Tokenomics from './components/Tokenomics'
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
           <About />
           <How />
         </section>
+        <Tokenomics />
+        <Community />
       </div>
     </main>
   )

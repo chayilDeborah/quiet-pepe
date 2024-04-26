@@ -9,7 +9,7 @@ const Introductn = () => {
         <main className='flex justify-center my-[100px] w-full'>
             <section className=' '>
                 <h3 className='text-[18px] leading-[150%] font-bold tracking-[12.06px] '>INTRODUCTION</h3>
-                <h1 className='text-[188px] mb-[16px] leading-[90%] h1 font-bold mb-[36px]'>$GONZO</h1>
+                <h1 className='text-[72px] lg:text-[188px] mb-[16px] leading-[90%] h1 font-bold mb-[36px]'>$GONZO</h1>
                 <p className='text-[22px] leading-[170%] mb-[40px]  '>The mischievous monkey with a knack for causing chaos and spreading laughter on base. </p>
                 <CopyButton />
                 <div className='flex'>
