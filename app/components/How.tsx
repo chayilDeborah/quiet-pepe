@@ -23,7 +23,7 @@ const How = () => {
                         <div className='num w-[110px] h-[110px] absolute -mt-[55px] ml-[45px] '>
                             02
                         </div>
-                        <div className='bigcard h-[505px]'>
+                        <div className='bigcard lg:h-[468px] h-[505px]'>
                             <h1 className='subtitle font-bold'>Add Base Network to Metamask</h1>
                             <div className='text-[18px] lg:text-[24px] leading-[180%]  '>    Add the following network to MetaMask via &apos;Settings &gt; Networks &gt; Add network&apos;:
                                <p> Network Name: Base</p>

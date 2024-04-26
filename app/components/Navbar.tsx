@@ -50,27 +50,27 @@ const Navbar = () => {
 			</div>
 			<section
 				className={`${isMenuOpen
-						? "block fixed  z-50 p-[50px] lg:p-[0px] lg:text-left  text-center bg-[#050505] bg-opacity-500 w-[100%] mx-auto"
+						? "block fixed  z-50 p-[50px] lg:p-[0px] lg:text-left  text-center bg-[#22A9D8] bg-opacity-500 w-[100%] mx-auto"
 						: "hidden"
 					} lg:flex font-dm-sans justify-between text-[18px] leading-[150%] lg:w-[539px] my-auto `}
 			>
 				<Link href="/">
-					<h1 className=" lg:my-auto hover:text-[#1F9AD0]">
+					<h1 className=" lg:my-auto hover:text-[#00B700]">
 						Home
 					</h1>
 				</Link>
 				<Link href="/#about">
-					<h1 className="my-[20px] lg:my-auto hover:text-[#1F9AD0] ">
+					<h1 className="my-[20px] lg:my-auto hover:text-[#00B700] ">
 						About
 					</h1>
 				</Link>
 				<Link href="/#tokenomics">
-					<h1 className="lg:my-auto hover:text-[#1F9AD0]">
+					<h1 className="lg:my-auto hover:text-[#00B700]">
 					Tokenomics
 					</h1>
 				</Link>
 				<Link href="/#how">
-					<h1 className="my-[20px] lg:my-auto hover:text-[#1F9AD0]">
+					<h1 className="my-[20px] lg:my-auto hover:text-[#00B700]">
 					How To Buy
 					</h1>
 				</Link>

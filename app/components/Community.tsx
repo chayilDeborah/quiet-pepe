@@ -27,7 +27,7 @@ const Community = () => {
                     </section>
                     <section>
                     <div className=' video-container'>
-                                    <video loop className="lg:w-[548px] w-[90%] h-[542px] mx-auto lg:mx-[0px] " autoPlay muted>
+                                    <video loop className="lg:w-[548px] w-[90%] h-[425px] lg:h-[542px] mx-auto lg:mx-[0px] mt-[55px] lg:mt-[0px] " autoPlay muted>
                                         <source src="/money.mp4" type="video/mp4" />
                                     </video>
                                 </div>

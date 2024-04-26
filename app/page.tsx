@@ -18,7 +18,7 @@ export default function Home() {
         </section>
         <Tokenomics />
         <Community />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </main>
   )
