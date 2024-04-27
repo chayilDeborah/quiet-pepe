@@ -76,12 +76,12 @@ const Navbar = () => {
 				</Link>
 			</section>
 			<div className='hidden lg:flex w-[140px] justify-between   '>
-			<Link href="/#">
+			<Link href="/https://t.me/gonzo_onchain">
 					<div className='w-[58px] h-[58px] rounded-[16px] tg '>
 						<Image src={tg} alt='telegram' className='' />
 					</div>
 				</Link>
-				<Link href="/#">
+				<Link href="/https://x.com/gonzo_onchain">
 				<div  className='w-[58px] h-[58px] rounded-[16px] tg '>
 						<Image src={twit} alt='twitter' className='' />
 					</div>
