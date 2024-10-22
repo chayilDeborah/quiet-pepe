@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import tv from "../assets/tv.gif";
-import ladies from "../assets/LADIES.png";
+import ladies from "../assets/ladies.png";
 
 const About = () => {
 	return (
@@ -30,8 +29,8 @@ const About = () => {
 						</h1>
 						<div className="lg:w-[689px] lg:text-[24px] text-[18px] text-center lg:text-left leading-[180%] font-rocknroll ">
 							Ada is the perfect AI for those who need fast,
-							reliable information at no cost. She’s designed to
-							help with your daily questions, offering instant
+							reliable information at no cost. She&apos;s designed
+							to help with your daily questions, offering instant
 							solutions that make knowledge easy to access and
 							understand. From simple queries to general advice,
 							Ada is always ready to assist.
@@ -44,7 +43,7 @@ const About = () => {
 					</section>
 				</div>
 				<div className=" lg:text-[24px] text-[18px] text-center lg:text-justify leading-[180%] font-rocknroll">
-					<p className="mt-[20px]">
+					<div className="mt-[20px]">
 						{" "}
 						Eve: Unlock Premium AI for Advanced Insights When you
 						need more than just basic answers, Eve steps in.{" "}
@@ -54,10 +53,10 @@ const About = () => {
 							knowledge and boundary-pushing conversations, Eve
 							offers tailored, in-depth responses—always delivered
 							with a bold, unpredictable edge. Gain access to
-							Eve’s unique insights through our points-based
+							Eve&apos;s unique insights through our points-based
 							system, perfect for tackling more complex problems.
 						</p>
-					</p>
+					</div>
 				</div>
 			</section>
 		</main>
@@ -65,6 +64,3 @@ const About = () => {
 };
 
 export default About;
-{
-	/* */
-}

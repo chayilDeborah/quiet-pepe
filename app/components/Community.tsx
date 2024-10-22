@@ -57,13 +57,7 @@ const Community = () => {
 							</Link>
 						</div>
 					</section>
-					{/* <section data-aos="fade-up">
-						<Image
-							src={thinking}
-							alt="gif"
-							className="lg:w-[505px] w-[90%] h-[425px] lg:h-[542px] mx-auto lg:mx-[0px] mt-[100px] lg:mt-[0px] "
-						/>
-					</section> */}
+				
 				</div>
 			</div>
 		</main>

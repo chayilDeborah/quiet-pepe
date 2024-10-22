@@ -25,9 +25,9 @@ const Introductn = () => {
 					data-aos="fade-up"
 				>
 					Welcome to Ada and Eve, the AI platform that combines
-					everyday convenience with advanced expertise. Whether you’re
-					looking for quick answers or deep insights, Ada and Eve have
-					you covered.
+					everyday convenience with advanced expertise. Whether
+					you&apos;re looking for quick answers or deep insights, Ada
+					and Eve have you covered.
 				</p>
 				{/* <CopyButton /> */}
 				<div

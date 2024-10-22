@@ -64,16 +64,6 @@ const Navbar = () => {
 						About
 					</h1>
 				</Link>
-				{/* <Link href="/#tokenomics">
-					<h1 className="lg:my-auto hover:text-[#00B700]">
-						Tokenomics
-					</h1>
-				</Link>
-				<Link href="/#how">
-					<h1 className="my-[20px] lg:my-auto hover:text-[#00B700]">
-						How To Buy
-					</h1>
-				</Link> */}
 			</section>
 			<div className="hidden lg:flex w-[140px] justify-between   ">
 				<Link href="/">
