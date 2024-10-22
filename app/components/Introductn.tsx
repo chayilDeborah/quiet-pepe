@@ -42,7 +42,7 @@ const Introductn = () => {
 					</Link>
 					<Link href="/#services">
 						<button className="farmbtn w-[200px] lg:w-[251px] h-[63px] lg:h-[75px] mt-[20px] lg:mt-[0px] ">
-							DESCREENER
+							DEXSCREENER
 						</button>
 					</Link>
 				</div>
