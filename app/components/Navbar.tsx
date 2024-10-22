@@ -1,31 +1,32 @@
 "use client";
-import Image from 'next/image'
+import Image from "next/image";
 import React, { useState } from "react";
-import logo from '../assets/logo.jpg'
+import logo from "../assets/logo.png";
 import Link from "next/link";
 import menuh from "../assets/menuh.svg";
 import close from "../assets/close.svg";
-import tg from '../assets/tg.svg'
-import twit from '../assets/twit.svg'
-
+import tg from "../assets/tg.svg";
+import twit from "../assets/twit.svg";
 
 const Navbar = () => {
-
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const toggleMenu = () => {
 		setIsMenuOpen(!isMenuOpen);
 	};
 
-
 	return (
 		<nav className="flex lg:max-w-[1280px] overflow-hidden mt-[25px] w-[95%] mx-auto lg:w-full justify-between lg:my-[37px] text-white">
 			<Link href="/">
-				<section className='flex '>
-					<Image src={logo} alt='logo' className='w-[65px] lg:w-[90px] rounded-[50%] z-[10000] ' />
+				<section className="flex ">
+					<Image
+						src={logo}
+						alt="logo"
+						className="w-[65px] lg:w-[90px] rounded-[50%] z-[10000] "
+					/>
 				</section>
 			</Link>
-			
+
 			<div className="lg:hidden w-[6%] ">
 				<button
 					onClick={toggleMenu}
@@ -49,46 +50,45 @@ const Navbar = () => {
 				</button>
 			</div>
 			<section
-				className={`${isMenuOpen
+				className={`${
+					isMenuOpen
 						? "block inset-0 fixed z-50 pb-[50px] pt-[100px] px-[50px] lg:p-[0px] lg:text-left  text-center bg-[#22A9D8] bg-opacity-500 w-[100%] mx-auto"
 						: "hidden"
-					} lg:flex justify-between text-[22px] leading-[150%] lg:w-[539px] my-auto `}
+				} lg:flex justify-between text-[22px] leading-[150%] lg:w-[539px] my-auto `}
 			>
 				<Link href="/">
-					<h1 className=" lg:my-auto hover:text-[#00B700]">
-						Home
-					</h1>
+					<h1 className=" lg:my-auto hover:text-[#00B700]">Home</h1>
 				</Link>
 				<Link href="/#about">
 					<h1 className="my-[20px] lg:my-auto hover:text-[#00B700] ">
 						About
 					</h1>
 				</Link>
-				<Link href="/#tokenomics">
+				{/* <Link href="/#tokenomics">
 					<h1 className="lg:my-auto hover:text-[#00B700]">
-					Tokenomics
+						Tokenomics
 					</h1>
 				</Link>
 				<Link href="/#how">
 					<h1 className="my-[20px] lg:my-auto hover:text-[#00B700]">
-					How To Buy
+						How To Buy
 					</h1>
-				</Link>
+				</Link> */}
 			</section>
-			<div className='hidden lg:flex w-[140px] justify-between   '>
-			<Link href="https://t.me/gonzo_onchain">
-					<div className='w-[58px] h-[58px] rounded-[16px] tg '>
-						<Image src={tg} alt='telegram' className='' />
+			<div className="hidden lg:flex w-[140px] justify-between   ">
+				<Link href="/">
+					<div className="w-[58px] h-[58px] rounded-[16px] tg ">
+						<Image src={tg} alt="telegram" className="" />
 					</div>
 				</Link>
-				<Link href="https://x.com/gonzo_onchain">
-				<div  className='w-[58px] h-[58px] rounded-[16px] tg '>
-						<Image src={twit} alt='twitter' className='' />
+				<Link href="/">
+					<div className="w-[58px] h-[58px] rounded-[16px] tg ">
+						<Image src={twit} alt="twitter" className="" />
 					</div>
 				</Link>
 			</div>
 		</nav>
-	)
-}
+	);
+};
 
-export default Navbar
+export default Navbar;
