@@ -37,12 +37,12 @@ const Introductn = () => {
 				>
 					<Link href="/#services">
 						<button className="farmbtn w-[200px] lg:w-[251px] h-[63px] lg:h-[75px] lg:mr-[30px] ">
-							BUY ON UNISWAP
+							BUY ON RAYDIUM
 						</button>
 					</Link>
 					<Link href="/#services">
 						<button className="farmbtn w-[200px] lg:w-[251px] h-[63px] lg:h-[75px] mt-[20px] lg:mt-[0px] ">
-							DEXTOOL CHART
+							DESCREENER
 						</button>
 					</Link>
 				</div>
