@@ -18,7 +18,7 @@ const rocknroll = RocknRoll_One({
 });
 
 export const metadata: Metadata = {
-	title: "Ada-Eve",
+	title: "Adam-Eve",
 	description: " Your Dual AI Assistants",
 };
 

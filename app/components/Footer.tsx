@@ -9,7 +9,7 @@ const Footer = () => {
 			<div className="lg:max-w-[1280px] w-[95%] mx-auto lg:w-full">
 				<div className="flex justify-between text-white foot lg:text-[16px] text-[13px] ">
 					<section>
-						<h1>© Ada-Eve Copyright 2024</h1>
+						<h1>© $Adam-Eve Copyright 2024</h1>
 					</section>
 					<h1>All Rights Reserved </h1>
 				</div>

@@ -23,11 +23,11 @@ const Community = () => {
 							data-aos="fade-up"
 							data-duration="1600"
 						>
-							Join our vibrant Ada and Eve community, where
+							Join our vibrant Adam and Eve community, where
 							knowledge meets personality! Access fast, free
-							solutions with Ada or unlock bold insights with
-							Eve&apos;s premium expertise. Connect, learn, and
-							explore with a points-based system designed for
+							solutions with Adam and Eve or unlock bold insights
+							with Eve&apos;s premium expertise. Connect, learn,
+							and explore with a points-based system designed for
 							deeper engagement. Be part of a space that fuels
 							both everyday convenience and advanced
 							problem-solving!
@@ -57,7 +57,6 @@ const Community = () => {
 							</Link>
 						</div>
 					</section>
-				
 				</div>
 			</div>
 		</main>

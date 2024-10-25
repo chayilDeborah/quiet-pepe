@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import ladies from "../assets/ladies.png";
+import image from "../assets/image.png";
 
 const About = () => {
 	return (
@@ -12,9 +12,9 @@ const About = () => {
 				<div className="flex flex-col-reverse lg:flex-row justify-between">
 					<section data-aos="fade-right">
 						<Image
-							src={ladies}
+							src={image}
 							alt="gif"
-							className="lg:w-[506px] mt-[40px] lg:mt-[0px] w-[90%] mx-auto lg:mx-[0px] h-[310px] lg:h-[496px] "
+							className="lg:w-[565px] mt-[20px] lg:mt-[0px] w-full mx-auto lg:mx-[0px] h-[340px] lg:h-[557px] "
 						/>
 					</section>
 					<section
@@ -22,18 +22,18 @@ const About = () => {
 						data-aos="fade-left"
 					>
 						<h3 className="text-[18px] leading-[150%] font-bold tracking-[12.06px]  text-center lg:text-left  test ">
-							ABOUT $AEVE
+							ABOUT $GENESIS
 						</h3>
 						<h1 className="who mb-[35px] font-bold mt-[17px] lg:mb-[40px] lg:mt-[24px] text-center lg:text-left  ">
-							WHO&apos;S ADA-EVE
+							WHO&apos;S ADAM-EVE
 						</h1>
 						<div className="lg:w-[689px] lg:text-[24px] text-[18px] text-center lg:text-left leading-[180%] font-rocknroll ">
-							Ada is the perfect AI for those who need fast,
+							Adam is the perfect AI for those who need fast,
 							reliable information at no cost. She&apos;s designed
 							to help with your daily questions, offering instant
 							solutions that make knowledge easy to access and
 							understand. From simple queries to general advice,
-							Ada is always ready to assist.
+							Adam is always ready to assist.
 							<div>
 								<p>• Completely Free for all users</p>{" "}
 								<p>• Instant Answers to everyday questions </p>{" "}
