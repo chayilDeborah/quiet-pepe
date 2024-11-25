@@ -2,7 +2,7 @@ import React from "react";
 // import CopyButton from "./CopyButton";
 import Link from "next/link";
 import Image from "next/image";
-import heros from "../assets/heros.png";
+import hero from "../assets/hero.jpg";
 
 const Introductn = () => {
 	return (
@@ -18,16 +18,13 @@ const Introductn = () => {
 					className="text-[58px] lg:text-[125px] leading-[90%] h1 font-bold mb-[36px] text-center lg:text-left mt-[15px] lg:mt-[0px] "
 					data-aos="fade-up"
 				>
-					$GENESIS
+					$QPEPE
 				</h1>
 				<p
-					className="lg:text-[24px] text-[18px] text-center lg:text-left leading-[170%] mb-[40px] "
+					className="lg:text-[24px] text-[18px] text-center lg:text-left leading-[170%] mb-[40px] lg:w-[70%] "
 					data-aos="fade-up"
 				>
-					Welcome to Adam-Eve, the AI platform that combines everyday
-					convenience with advanced expertise. Whether you&apos;re
-					looking for quick answers or deep insights, Adam-Eve have
-					you covered.
+					Where Memes Speak Louder in Silence Welcome to Quiet PePe!
 				</p>
 				{/* <CopyButton /> */}
 				<div
@@ -37,11 +34,11 @@ const Introductn = () => {
 				>
 					<Link href="/#services">
 						<button className="farmbtn w-[200px] lg:w-[251px] h-[63px] lg:h-[75px] lg:mr-[30px] ">
-							BUY ON UNISWAP
+							BUY ON RAYDIUM
 						</button>
 					</Link>
 					<Link href="/#services">
-						<button className="farmbtn w-[200px] lg:w-[251px] h-[63px] lg:h-[75px] mt-[20px] lg:mt-[0px] ">
+						<button className="farmbtn w-[200px] lg:w-[251px] h-[63px] lg:h-[75px] mt-[40px] lg:mt-[0px] ">
 							DEXSCREENER
 						</button>
 					</Link>
@@ -51,7 +48,7 @@ const Introductn = () => {
 				className="lg:mt-[20px] mt-[75px] w-[320px] mx-auto lg:mx-0 lg:w-[448px] "
 				data-aos="fade-up"
 			>
-				<Image src={heros} alt="" className="rounded-[8px]" />
+				<Image src={hero} alt="" className="rounded-[53px]" />
 			</section>
 		</main>
 	);

@@ -18,7 +18,7 @@ const rocknroll = RocknRoll_One({
 });
 
 export const metadata: Metadata = {
-	title: "Adam-Eve",
+	title: "Quiet PePe",
 	description: " Your Dual AI Assistants",
 };
 
@@ -30,7 +30,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={rocknroll.className}>
-				<link rel="icon" href="/logo.png" sizes="any" />
+				<link rel="icon" href="/logo.jpg" sizes="any" />
 				{children}
 			</body>
 		</html>

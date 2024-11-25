@@ -23,21 +23,22 @@ const Community = () => {
 							data-aos="fade-up"
 							data-duration="1600"
 						>
-							Join our vibrant Adam and Eve community, where
-							knowledge meets personality! Access fast, free
-							solutions with Adam and Eve or unlock bold insights
-							with Eve&apos;s premium expertise. Connect, learn,
-							and explore with a points-based system designed for
-							deeper engagement. Be part of a space that fuels
-							both everyday convenience and advanced
-							problem-solving!
+							At Quiet PePe, we’re more than just memes – we’re a
+							movement. A movement that celebrates creativity,
+							humor, and the magic of subtlety. By joining our
+							community, you’ll be part of an exclusive group that
+							values quality over quantity and wit over noise.
+							<br />
+							Click below and join the quietest – yet most
+							impactful – community on the internet. Together,
+							we’ll prove that subtlety speaks volumes.
 						</p>
 						<div
 							className="flex w-[140px] mt-[65px] lg:mt-[40px] justify-center lg:justify-between mx-auto   "
 							data-aos="fade-up"
 							data-duration="1800"
 						>
-							<Link href="/" className=" ">
+							<Link href="https://t.me/QuietPepe" className=" ">
 								<div className="w-[105px] h-[80px] rounded-[16px] tgjoin ">
 									<Image
 										src={tg}
@@ -46,7 +47,7 @@ const Community = () => {
 									/>
 								</div>
 							</Link>
-							<Link href="/">
+							<Link href="https://x.com/QuietPepe_Sol">
 								<div className="w-[105px] h-[80px] rounded-[16px] tgjoin ml-[40px] ">
 									<Image
 										src={twit}
