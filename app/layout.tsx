@@ -19,7 +19,7 @@ const rocknroll = RocknRoll_One({
 
 export const metadata: Metadata = {
 	title: "Quiet PePe",
-	description: " Your Dual AI Assistants",
+	description: " Your Q",
 };
 
 export default function RootLayout({
