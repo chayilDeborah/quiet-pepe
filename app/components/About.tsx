@@ -14,7 +14,7 @@ const About = () => {
 						<Image
 							src={image}
 							alt="gif"
-							className="lg:w-[565px] mt-[20px] lg:-mt-[70px] w-full mx-auto lg:mx-[0px] h-[340px] lg:h-[595px] "
+							className="lg:w-[565px] mt-[20px] lg:-mt-[70px] w-full mx-auto lg:mx-[0px] h-[380px] lg:h-[595px] "
 						/>
 					</section>
 					<section
