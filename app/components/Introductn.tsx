@@ -21,7 +21,7 @@ const Introductn = () => {
 					$QPEPE
 				</h1>
 				<p
-					className="lg:text-[24px] text-[18px] text-center lg:text-left leading-[170%] mb-[40px] lg:w-[70%] "
+					className="lg:text-[24px] text-[18px] text-center lg:text-left leading-[200%] mb-[40px] lg:w-[70%] "
 					data-aos="fade-up"
 				>
 					Where Memes Speak Louder in Silence Welcome to Quiet PePe!

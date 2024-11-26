@@ -21,11 +21,8 @@ const About = () => {
 						className="lg:mt-[30px] lg:ml-[30px] "
 						data-aos="fade-left"
 					>
-						<h3 className="text-[18px] leading-[150%] font-bold tracking-[12.06px]  text-center lg:text-left  test ">
-							ABOUT $QPEPE
-						</h3>
-						<h1 className="who mb-[35px] font-bold mt-[17px] lg:mb-[40px] lg:mt-[24px] text-center lg:text-left  ">
-							WHO&apos;S QUIET PEPE
+						<h1 className="who mb-[25px] font-bold mt-[17px] lg:mb-[40px] lg:mt-[24px] text-center lg:text-left w-[90%] lg:mx-0 mx-auto  ">
+							ABOUT QUIET PEPE
 						</h1>
 						<div className="lg:w-[689px] lg:text-[24px] text-[18px] text-center lg:text-left leading-[180%] font-rocknroll ">
 							Welcome to Quiet PePe! <br />

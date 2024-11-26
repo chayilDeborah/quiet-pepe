@@ -34,7 +34,7 @@ const Community = () => {
 							we’ll prove that subtlety speaks volumes.
 						</p>
 						<div
-							className="flex w-[140px] mt-[65px] lg:mt-[40px] justify-center lg:justify-between mx-auto   "
+							className="flex w-[140px] h-[95px] mt-[65px] lg:mt-[40px] justify-center lg:justify-between mx-auto   "
 							data-aos="fade-up"
 							data-duration="1800"
 						>
