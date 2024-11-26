@@ -19,7 +19,7 @@ const rocknroll = RocknRoll_One({
 
 export const metadata: Metadata = {
 	title: "Quiet PePe",
-	description: " Your Q",
+	description: " Where Memes Speak Louder in Silence ",
 };
 
 export default function RootLayout({
