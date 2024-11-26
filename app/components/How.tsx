@@ -34,7 +34,7 @@ const How = () => {
 							</p>
 							{/* <Image
 								src={dance}
-								alt="gonzo"
+								alt="quietpepe"
 								className="w-[159px] mt-[20px] mx-auto rounded-[50%] "
 							/> */}
 						</div>
@@ -50,7 +50,7 @@ const How = () => {
 						<div className="bigcard lg:h-[388px] h-[350px]">
 							<h1 className="subtitle font-bold">Get Some Sol</h1>
 							<div className="text-[16.9px] lg:text-[22px] leading-[180%]  ">
-								To buy Talking Ben, you need sol in your wallet.
+								To buy Quiet PePe, you need sol in your wallet.
 								Purchase Sol on phantom or transfer from another
 								wallet, you can also buy from an exchange and
 								send it to your phantom wallet.
